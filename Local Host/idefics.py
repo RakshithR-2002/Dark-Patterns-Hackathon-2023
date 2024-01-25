@@ -22,7 +22,7 @@ def call_idfics_llm(prompt):
         return None
 
 # Example usage:
-prompt = "Write a code snippet in Python"
+prompt = "This is the image of a website that contains dark patterns. Identify the dark patterns and flag them. Give the Output as <Text Indicating Dark Pattern>:<Type of Dark Pattern>. Replace the Contents inside <> with the relevent data from the website"
 result = call_idfics_llm(prompt)
 
 if result:
